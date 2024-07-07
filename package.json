@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "typescript": "^5.5.3"
+  },
+  "type": "module",
+  "scripts": {
+    "watch": "tsc -w",
+    "start": "tsc src/index.ts && node src/index.js"
+  }
+}
